@@ -1,0 +1,1349 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel WebDesign</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/scss/slick-theme.css">
+    <link rel="stylesheet" href="./assets/scss/slick.css">
+    <link rel="stylesheet" href="./assets/scss/main.css">
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="row header__contact">
+
+            <div class="col-md-4">
+                <div class="header__contact--left">
+                    <a href="#">
+                        Hotline : <span>1900 1839</span>
+                        <span class="header__contact--icon"><i class="fas fa-chevron-down"></i></span>
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="col-md-8">
+                <div class="header__contact--right">
+                    <div class="header__contact--search">
+                        <input type="text" class="header__contact--input" placeholder="Tour du lịch, Điểm đến...">
+                        <a href="" class="header__contact--search--icon">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <a href="#" class="header__contact--history">
+                        <i class="fas fa-history"></i>
+                    </a>
+                    <a href="#" class="header__contact--user">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                    <ul class="header__contact--user--list">
+                        <li class="header__contact--user--item">
+                            <a href="#" class="header__contact--user--link">Đăng nhập</a>
+                        </li>
+                        <li class="header__contact--user--item">
+                            <a href="#" class="header__contact--user--link">Đăng ký</a>
+                        </li>
+                    </ul>
+
+                    <div class="header__contact--menu">
+                        <span><i class="header__contact--icon fas fa-bars"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="navbar__mobile">
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Tour xuyên Việt</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Du lịch trong nước</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Du lịch tự chọn</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Du học</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Khách sạn</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Thuê xe</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Vé máy bay</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Tin tức</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Cẩm nang du lịch</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Kinh nghiệm du lịch</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Thông tin visa</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Mua tour trả chậm 0%</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Ưu đãi Sacombank</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Ưu đãi công VIB</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Ưu đãi VN Pay</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Hoàn tiền MSB</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Hoàn tiền BIDV</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Vietravel Plush</a>
+                </li>
+                <li class="navbar__mobile--item">
+                    <a href="#" class="navbar__mobile--link">Liên hệ</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </header>
+
+    <div class="header__menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="" class="header__menu--logo">
+                        <img src="./assets/images/logo.png" alt="" class="header__menu--img">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <ul class="header__menu--list">
+                        <li class="header__menu--item">
+                            <a href="#" class="header__menu--link">Du lịch</a>
+                            <ul class="header__sub--menu">
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Du lịch nước ngoài</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Du lịch nước trong</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Du lịch tự chọn</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Du lịch an toàn</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Tự học</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__menu--item">
+                            <a href="#" class="header__menu--link">Khách sạn</a>
+                        </li>
+                        <li class="header__menu--item">
+                            <a href="#" class="header__menu--link">Vận chuyển</a>
+                            <ul class="header__sub--menu">
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Thuê xe</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Thuê máy bay</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__menu--item">
+                            <a href="#" class="header__menu--link">Tin tức</a>
+                            <ul class="header__sub--menu">
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Tin tức</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Cẩm nang du lịch</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Kinh nghiệm du lịch</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Thông tin visa</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__menu--item">
+                            <a href="#" class="header__menu--link">Khuyến mại</a>
+                            <ul class="header__sub--menu">
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Mua tour trả chậm 0%</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Ưu đãi Sacombank</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Ưu đãi cùng VIB</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Ưu đãi VN Pay</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Hoàn tiền MSB</a>
+                                </li>
+                                <li class="header__sub--menu--item">
+                                    <a href="" class="header__sub--menu--link">Hoàn tiền BIDV</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__menu--item">
+                            <a href="#" class="header__menu--link">VietravelPlus</a>
+                        </li>
+                        <li class="header__menu--item">
+                            <a href="#" class="header__menu--link">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 header__with--search">
+                    <input type="text" class="header__with--search--input" placeholder="Tour du lịch, điểm đến...">
+                    <i class="header__with--search--icon fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal__login">
+
+            <div class="modal__head">
+                <h3 class="modal__head--title">Đăng nhập</h3>
+                <a href="#" class="modal__head--icon">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+
+            <div class="modal__body">
+    
+                <div class="form__group">
+                    <span class="form__group--icon"><i class="fas fa-user"></i></span>
+                    <input type="text" class="form__group--input" placeholder="Tài khoản">
+                </div>
+    
+                <div class="form__group">
+                    <span class="form__group--icon"><i class="fas fa-key"></i></span>
+                    <input type="password" class="form__group--input" placeholder="Mật khẩu">
+                </div>
+    
+               <div class="modal__account">
+                    <p>Bạn chưa có tài khoản?</p>
+                    <a href="">Đăng ký ngay hoàn toàn miễn phí</a>
+               </div>
+    
+               <div class="modal__account">
+                    <p>Quên mật khẩu?</p>
+                    <a href="">Lấy lại mật khẩu</a>
+               </div>
+    
+            </div>
+    
+            <div class="modal__footer">
+                <a href="#" class="modal__footer--btn">
+                    Đăng nhập
+                    <span><i class="modal__footer--icon fas fa-sign-in-alt"></i></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="banner__container">
+        <div class="banner">
+
+            <div class="banner__slide">
+                <img src="./assets/images/slide/sl_201109_25namloicamontutraitim.jpg" alt="">
+            </div>
+            
+            <div class="banner__slide">
+                <img src="./assets/images/slide/sl_201116_banner_loi-cam-on-bidv-2_web-1920x570.jpg" alt="">
+            </div>
+    
+            <div class="banner__slide">
+                <img src="./assets/images/slide/sl_201116_banner-msb-the-trong-tay-tien-hoan_web-1920x570.jpg" alt="">
+            </div>
+    
+            <div class="banner__slide">
+                <img src="./assets/images/slide/sl_201023_bannercuchoami.jpg" alt="">
+            </div>
+    
+            <div class="banner__slide">
+                <img src="./assets/images/slide/sl_201029_1920x570.jpg" alt="">
+            </div>
+    
+            <div class="banner__slide">
+                <img src="./assets/images/slide/sl_201105_viber_image_2020-11-05_10-24-47.jpg" alt="">
+            </div>
+              
+        </div>
+
+        <div class="arrow__prev">
+            <span><i class="fas fa-angle-left"></i></span>
+        </div>
+
+        <div class="arrow__next">
+            <span><i class="fas fa-angle-right"></i></span>
+        </div>
+    </div>
+   
+    <section class="form__search">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4 col-6">
+                    <a href="" class="form__search--box border-blue">
+                        <span class="form__search--box--icon">
+                            <i class="fas fa-suitcase-rolling"></i>
+                        </span>
+                        <h3 class="form__search--box--title">Tìm tour</h3>
+                        <h4 class="form__search--box--name color-blue">Trong nước</h4>
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <a href="" class="form__search--box border-red">
+                        <span class="form__search--box--icon">
+                            <i class="fas fa-suitcase"></i>
+                        </span>
+                        <h3 class="form__search--box--title">Tìm tour</h3>
+                        <h4 class="form__search--box--name color-red">Nước ngoài</h4>
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <a href="" class="form__search--box border-orange">
+                        <span class="form__search--box--icon">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </span>
+                        <h3 class="form__search--box--title">Combo</h3>
+                        <h4 class="form__search--box--name color-orange">Giá tốt</h4>
+                    </a>
+              </div>
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <a href="" class="form__search--box border-blue-1">
+                        <span class="form__search--box--icon">
+                            <i class="fas fa-shuttle-van"></i>
+                        </span>
+                        <h3 class="form__search--box--title">Du lịch</h3>
+                        <h4 class="form__search--box--name color-blue-1">Tự chọn</h4>
+                    </a>
+               </div>
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <a href="#" class="form__search--box border-green">
+                        <span class="form__search--box--icon">
+                            <i class="fas fa-search-location"></i>
+                        </span>
+                        <h3 class="form__search--box--title">Tìm kiếm</h3>
+                        <h4 class="form__search--box--name color-green">Booking</h4>
+                    </a>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-6">
+                    <a href="" class="form__search--box border-blue-2">
+                        <span class="form__search--box--icon">
+                            <i class="fas fa-users"></i>
+                        </span>
+                        <h3 class="form__search--box--title">Hội viên</h3>
+                        <h4 class="form__search--box--name color-blue-2">Thân thiết</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="slide__icon--container">
+        <div class="slide__icon--list">
+            <div class="row responsive">
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-favorite-cart-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Ưu đãi khủng</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-for-you-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Lời cảm ơn từ trái tim</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-spring-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tour đón năm mới</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-new-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tour đón Tân Sửu</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-this-way-up-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tour Mới</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-bracelet-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Cao cấp</h4>
+                </a>
+    
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-favorite-cart-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tour Bản sắc Bắc Bộ</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-for-you-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tour Di sản miền Trung</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-spring-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Biển xanh miền duyên hải</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-new-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tây Nguyên đại ngàn</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-this-way-up-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tour về miền Tây</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-bracelet-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Đảo ngọc phú quốc</h4>
+                </a>
+
+
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-favorite-cart-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tiêu chuẩn</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-for-you-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tiết kiệm</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-spring-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Giá tốt</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-new-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tour Bất động sản</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-this-way-up-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Tour hành hương</h4>
+                </a>
+                <a href ="#" class="slide__icon--item">
+                    <img class="img-fluid slide__icon--item--img" src="./assets/images/slider-icon/icons8-bracelet-100.png" alt="">
+                    <h4 class="slide__icon--item--title">Trải nghiệm làm phi công</h4>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- tour -->
+
+    <section class="tour">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-6">
+                    <a href="#" class="tour__item">
+                        <img class="img-fluid tour__item--img" src="./assets/images/bn_200506_DU-LICH-AN-TOAN-2.jpg" alt="">
+                        <div class="tour__information">
+                            <h3 class="tour__information--name">Du lịch an toàn</h3>
+                            <p class="tour__information--desc">Tiêu chí du lịch an toàn</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                    <a href="#" class="tour__item">
+                        <img class="img-fluid tour__item--img" src="./assets/images/bn_200506_KY-NGHI-GIA-DINH.jpg" alt="">
+                        <div class="tour__information">
+                            <h3 class="tour__information--name">Combo giá tốt</h3>
+                            <p class="tour__information--desc">Dịch vụ tự chọn dành riêng cho gia đình bạn</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                    <a href="#" class="tour__item">
+                        <img class="img-fluid tour__item--img" src="./assets/images/bn_200506_TOUR-UU-DAI-KHUNG.jpg" alt="">
+                        <div class="tour__information">
+                            <h3 class="tour__information--name">Du lịch tự chọn</h3>
+                            <p class="tour__information--desc">Đừng bỏ lỡ giảm giá chưa từng có</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                    <a href="#" class="tour__item">
+                        <img class="img-fluid tour__item--img" src="./assets/images/bn_200506_VIETRAVEL-GIFT.jpg" alt="">
+                        <div class="tour__information">
+                            <h3 class="tour__information--name">Vietravel gift</h3>
+                            <p class="tour__information--desc">Phiếu quà tặng Vietravel</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="slider__special">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="#" class="section__title">Ưu đãi đặc biệt - Đặt ngay hôm nay </a>
+            </div>
+        </div>
+
+        <div class="slide__special">
+            <div class="container slide__special--list">
+                <div class="slide__special--item">
+                    <img class="img-fluid border-radius" src="./assets/images/slide-3/bn_201019_banner-05.jpg" alt="photo">
+                </div>
+                <div class="slide__special--item">
+                    <img class="img-fluid border-radius" src="./assets/images/slide-3/bn_201019_banner-06.jpg" alt="photo">
+                </div>
+                <div class="slide__special--item">
+                    <img class="img-fluid border-radius" src="./assets/images/slide-3/bn_201019_banner-07.jpg" alt="photo">
+                </div>
+                <div class="slide__special--item">
+                    <img class="img-fluid border-radius" src="./assets/images/slide-3/bn_201019_banner-08.jpg" alt="photo">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a href="" class="section__title">Tour giờ chót</a>
+                    <p class="section__desc">Tour giờ chót với giá tốt</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="feature__item">
+                        <div class="feature__pos">
+
+                            <a href="#" class="feature__img">
+                                <img src="./assets/images/pay/tf_201201104759_151833.jpg" alt="img-fluid">
+                            </a>
+
+                            <div class="feature__date">
+                                <div class="feature__date--calendar">
+                                    <span><i class="far fa-calendar-alt"></i></span>
+                                    <p class="feature__date--text">12/12/2020 <span>-</span> 3 ngày</p>
+                                </div>
+                                <div class="feature__date--seats">
+                                    <span><i class="fas fa-chair"></i></span>
+                                    <p class="feature__date--text">4 chỗ</p>
+                                </div>
+                            </div>
+
+                            <div class="feature__time">
+                                <span>Còn 00 ngày 01:59:02</span>
+                            </div>
+
+                        </div>
+                        
+                        <div class="feature__info">
+                            <h3 class="feature__info--title">
+                                Phú Quốc - Vinpearl Oasis Resort - Thỏa Thích Vui Chơi Tại Vinwonders & Safari (Bao Gồm 6 Bữa Buffet 5 Sao) - Lời Cảm Ơn Từ Trái Tim
+                            </h3>
+                            <div class="feature__info--box">
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                <p class="feature__info--text">Nơi khởi hành : <span>Hồ Chí Minh</span></p>
+                            </div>
+                            <div class="feature__info--box">
+                                <span><i class="fas fa-tags"></i></span>
+                                <p class="feature__info--price--old">
+                                    5,990,000 đ 
+                                </p>
+                                <span class="feature__info--price--new">4,990,000 đ</span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="feature__item">
+                        <div class="feature__pos">
+                            <a href="#" class="feature__img">
+                                <img src="./assets/images/pay/tf_200812104308_794610.jpg" alt="img-fluid">
+                            </a>
+                            <div class="feature__date">
+                                <div class="feature__date--calendar">
+                                    <span><i class="far fa-calendar-alt"></i></span>
+                                    <p class="feature__date--text">13/12/2020 <span>-</span> 3 ngày</p>
+                                </div>
+                                <div class="feature__date--seats">
+                                    <span><i class="fas fa-chair"></i></span>
+                                    <p class="feature__date--text">3 chỗ</p>
+                                </div>
+                                          
+                            </div>
+                            <div class="feature__time">
+                                <span>Còn 02 ngày 05:45:26</span>
+                            </div>
+                        </div>
+
+                        <div class="feature__info">
+                            <h3 class="feature__info--title">
+                                Xe cáp treo du lịch trên không chỉ có duy nhất tại Sunworld Hạ Long
+                            </h3>
+                            <div class="feature__info--box">
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                <p class="feature__info--text">Nơi khởi hành : <span>Hà Nội</span></p>
+                            </div>
+                            <div class="feature__info--box">
+                                <span><i class="fas fa-tags"></i></span>
+                                <p class="feature__info--price--old">
+                                    3,990,000 đ 
+                                </p>
+                                <span class="feature__info--price--new">3,790,000 đ</span>
+                            </div>
+                        </div>
+              
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="feature__item">
+                        <div class="feature__pos">
+                            <a href="#" class="feature__img">
+                                <img src="./assets/images/pay/tf_200618104808_828605.jpg" alt="img-fluid">
+                            </a>
+                            <div class="feature__date">
+                                <div class="feature__date--calendar">
+                                    <span><i class="far fa-calendar-alt"></i></span>
+                                    <p class="feature__date--text">14/12/2020 <span>-</span> 3 ngày</p>
+                                </div>
+                                <div class="feature__date--seats">
+                                    <span><i class="fas fa-chair"></i></span>
+                                    <p class="feature__date--text">6 chỗ</p>
+                                </div>
+                            </div>
+                            <div class="feature__time">
+                                <span>Còn 04 ngày 02:45:37</span>
+                            </div>
+                        </div>
+                        <div class="feature__info">
+                            <h3 class="feature__info--title">
+                                Khám phá “tiểu sa mạc Sahara” của Việt Nam.
+                            </h3>
+                            <div class="feature__info--box">
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                <p class="feature__info--text">Nơi khởi hành : <span>Hồ Chí Minh</span></p>
+                            </div>
+                            <div class="feature__info--box">
+                                <span><i class="fas fa-tags"></i></span>
+                                <p class="feature__info--price--old">
+                                    1,890,000 đ 
+                                </p>
+                                <span class="feature__info--price--new">1,690,000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="feature__btn text-center">
+                        <a href="#">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="destination">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#" class="section__title">Điểm đến yêu thích</a>
+                    <p class="section__desc">Các điểm đến du lịch trong nước và ngoài nước</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="destination__item">
+                        <a href="#" class="destination__img">
+                            <img src="./assets/images/address-love/dd1.jpg" alt="">
+                        </a>
+                        <div class="destination__info">
+                            <h4 class="destination__info--title">Vịnh hạ long</h4>
+                            <p class="destination__info--desc">
+                                Đã có <span>1600 <sup class="k">+</sup></span> lượt khách
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="destination__item">
+                        <a href="#" class="destination__img">
+                            <img src="./assets/images/address-love/dd2.jpg" alt="">
+                        </a>
+                        <div class="destination__info">
+                            <h4 class="destination__info--title">Sapa</h4>
+                            <p class="destination__info--desc">
+                                Đã có <span>1200 <sup class="k">+</sup></span> lượt khách
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="destination__item">
+                        <a href="#" class="destination__img">
+                            <img src="./assets/images/address-love/dd3.jpg" alt="">
+                        </a>
+                        <div class="destination__info">
+                            <h4 class="destination__info--title">Đà Nẵng</h4>
+                            <p class="destination__info--desc">
+                                Đã có <span>1100 <sup class="k">+</sup></span> lượt khách
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="destination__item">
+                        <a href="#" class="destination__img">
+                            <img src="./assets/images/address-love/dd4.jpg" alt="">
+                        </a>
+                        <div class="destination__info">
+                            <h4 class="destination__info--title">Qui Nhơn</h4>
+                            <p class="destination__info--desc">
+                                Đã có <span>1900 <sup class="k">+</sup></span> lượt khách
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="destination__border"></div>
+                </div>
+                  
+            </div>
+
+            <div class="row">
+                <div class="nation__list">
+
+                    <div class="nation__item">
+                        <div class="nation__pos">
+                            <a href="#" class="nation__img">
+                                <img src="./assets/images/address-love/qg1.jpg" alt="">
+                            </a>
+                            <div class="nation__info">
+                                <h4 class="nation__info--title">Châu Âu</h4>
+                                <p class="nation__info--desc">
+                                    Khám phá ngay
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nation__item">
+                        <div class="nation__pos">
+                            <a href="#" class="nation__img">
+                                <img src="./assets/images/address-love/qg2.jpg" alt="">
+                            </a>
+                            <div class="nation__info">
+                                <h4 class="nation__info--title">Châu Á</h4>
+                                <p class="nation__info--desc">
+                                    Khám phá ngay
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nation__item">
+                        <div class="nation__pos">
+                            <a href="#" class="nation__img">
+                                <img src="./assets/images/address-love/qg3.jpg" alt="">
+                            </a>
+                            <div class="nation__info">
+                                <h4 class="nation__info--title">Châu Úc</h4>
+                                <p class="nation__info--desc">
+                                    Khám phá ngay
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nation__item">
+                        <div class="nation__pos">
+                            <a href="#" class="nation__img">
+                                <img src="./assets/images/address-love/qg4.jpg" alt="">
+                            </a>
+                            <div class="nation__info">
+                                <h4 class="nation__info--title">Châu Mỹ</h4>
+                                <p class="nation__info--desc">
+                                    Khám phá ngay
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nation__item">
+                        <div class="nation__pos">
+                            <a href="#" class="nation__img">
+                                <img src="./assets/images/address-love/qg5.jpg" alt="">
+                            </a>
+                            <div class="nation__info">
+                                <h4 class="nation__info--title">Châu Phi</h4>
+                                <p class="nation__info--desc">
+                                    Khám phá ngay
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>     
+    </section>
+
+    <section class="opinion">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#" class="section__title">Ý kiến khách hàng</a>
+                    <p class="section__desc">Phản hồi của khách hàng sau khi đi tour Vietravel</p>
+                </div>
+    
+                <div class="col-md-12">
+                    <img class="img-fluid opinion__img opinion__img--top" src="./assets/images/conma-top.png" alt="">
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="opinion__item">
+                        <h3 class="opinion__item--title">
+                            <a href="#">Trải nghiệm đặc biệt trong hành trình tour đông bắc</a>
+                        </h3>
+                        <div class="line-dot">-------------------------</div>
+                        <div class="opinion__item--calendar">
+                            <span><i class="far fa-calendar-alt"></i></span>
+                            <span class="opinion__item--date">30/11/2020</span>
+                        </div>
+                        <div class="opinion__item--btn">
+                            <a href="#" class="opinion__item--btn--see">Xem thêm</a>
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="opinion__item">
+                        <h3 class="opinion__item--title">
+                            <a href="#">Thư khen của khách hàng Nguyễn Thị Phương Thảo trong chuyến đi du lịch </a>
+                        </h3>
+                        <div class="line-dot">-------------------------</div>
+                        <div class="opinion__item--calendar">
+                            <span><i class="far fa-calendar-alt"></i></span>
+                            <span class="opinion__item--date">30/11/2020</span>
+                        </div>
+                        <div class="opinion__item--btn">
+                            <a href="#" class="opinion__item--btn--see">Xem thêm</a>
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12">
+                    <div class="opinion__item">
+                        <h3 class="opinion__item--title">
+                            <a href="#">Thư khen của khách hàng Nguyễn Ngọc Quý dành cho Vietravel</a>
+                        </h3>
+                        <div class="line-dot">-------------------------</div>
+                        <div class="opinion__item--calendar">
+                            <span><i class="far fa-calendar-alt"></i></span>
+                            <span class="opinion__item--date">30/11/2020</span>
+                        </div>
+                        <div class="opinion__item--btn">
+                            <a href="#" class="opinion__item--btn--see">Xem thêm</a>
+                            <span><i class="fas fa-chevron-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-fluid opinion__img opinion__img--bottom" src="./assets/images/conma-bot.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="question">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="question__img">
+                        <img class="img-fluid" src="./assets/images/bg-why.png" alt="">
+                        <div class="question__info">
+                            <h3 class="question__title">Vì sao chọn</h3>
+                            <p class="question__desc">travel.com.vn?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-6">
+                            <div class="question__item">
+                                <div class="question__item--num">1.</div>
+                                <h4 class="question__item--name">Mạng bán tour</h4>
+                                <div class="question__item--line">-------------------------</div>
+                                <div class="question__item--desc">
+                                    <p>Đầu tiên tại Việt Nam</p>
+                                    <p>Ứng dụng công nghệ mới nhất</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-6">
+                            <div class="question__item">
+                                <div class="question__item--num">2.</div>
+                                <h4 class="question__item--name">Thanh toán</h4>
+                                <div class="question__item--line">-------------------------</div>
+                                <div class="question__item--desc">
+                                    <p>An toàn và linh hoạt</p>
+                                    <p>Liên kết với các tổ chức tài chính</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-6">
+                            <div class="question__item">
+                                <div class="question__item--num">3.</div>
+                                <h4 class="question__item--name">Giá cả</h4>
+                                <div class="question__item--line">-------------------------</div>
+                                <div class="question__item--desc">
+                                    <p>Luôn có mức giá tốt nhất</p>
+                                    <p>Bảo đảm tốt nhất</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-6">
+                            <div class="question__item">
+                                <div class="question__item--num">4.</div>
+                                <h4 class="question__item--name">Sản phẩm</h4>
+                                <div class="question__item--line">-------------------------</div>
+                                <div class="question__item--desc">
+                                    <p>Đa dạng, chất lượng</p>
+                                    <p>Đạt chất lượng tốt nhất</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-6">
+                            <div class="question__item">
+                                <div class="question__item--num">5.</div>
+                                <h4 class="question__item--name">Đặt tour</h4>
+                                <div class="question__item--line">-------------------------</div>
+                                <div class="question__item--desc">
+                                    <p>Dễ dàng và nhanh chóng</p>
+                                    <p>Đặt tour chỉ với 3 bước</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-6">
+                            <div class="question__item">
+                                <div class="question__item--num">6.</div>
+                                <h4 class="question__item--name">Hỗ trợ</h4>
+                                <div class="question__item--line">-------------------------</div>
+                                <div class="question__item--desc">
+                                    <p>Từ 08h00 - 22h00</p>
+                                    <p>Hotline và hỗ trợ trực tuyến</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="travel">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="travel__item">
+                        <img src="./assets/images/o-d1.jpg" alt="" class="img-fluid travel__item--img">
+                        <div class="travel__info">
+                            <div class="travel__info--name">
+                                <a href="#">Du lịch trong nước</a>
+                            </div>
+                            <ul class="travel__info--list row">
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Hà Nội</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Hạ Long</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Ninh Bình</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Quảng Bình</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Lào Cai</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Đà Nẵng</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Qui Nhơn</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Nha Trang</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Phan Thiết</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Đà Lạt</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Vũng Tàu</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Cần Thơ</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Phú Quốc</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Cà Mau</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Kiên Giang</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Huế</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="travel__item">
+                        <img src="./assets/images/o-d2.jpg" alt="" class="img-fluid travel__item--img">
+                        <div class="travel__info">
+                            <div class="travel__info--name">
+                                <a href="#">Du lịch nước ngoài</a>
+                            </div>
+                            <ul class="travel__info--list row">
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Pháp</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Nga</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Mỹ</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Brazil</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Úc</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">New Zealand</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Nam Phi</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Kenya</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Campuchia</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Singapore</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Thái Lan</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Nhật Bản</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Hàn Quốc</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Ấn Độ</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Hồng Kông</a></li>
+                                <li class="travel__info--item col-md-6 col-sm-6 col-6"><a class="travel__info--link" href="#">Dubai</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex">
+                    <div class="travel__tour">
+                        <h3 class="travel__tour--name">Dòng tour</h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="travel__type">
+                                    <a href="#" class="travel__type--btn">
+                                        <img src="./assets/images/i-star.png" alt="" class="travel__type--img">
+                                        <span class="travel__type--title">Cao cấp</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="travel__type">
+                                    <a href="#" class="travel__type--btn">
+                                        <img src="./assets/images/i-star.png" alt="" class="travel__type--img">
+                                        <span class="travel__type--title">Tiêu chuẩn</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="travel__type">
+                                    <a href="#" class="travel__type--btn">
+                                        <img src="./assets/images/i-star.png" alt="" class="travel__type--img">
+                                        <span class="travel__type--title">Tiết kiệm</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="travel__type">
+                                    <a href="#" class="travel__type--btn">
+                                        <img src="./assets/images/i-star.png" alt="" class="travel__type--img">
+                                        <span class="travel__type--title">Giá tốt</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <h3 class="travel__tour--name">Ứng dụng di động</h3>
+                        
+                        <div class="travel__mobile">
+                            <p class="travel__mobile--text">Tải ứng dụng</p>
+                            <div class="travel__mobile--download">
+                                <a href="#" class="travel__mobile--download--google">
+                                    <img class="img fluid" src="./assets/images/gp.png" alt="">
+                                </a>
+                                <div class="travel__mobile--line">
+                                    <img class="img-fluid" src="./assets/images/line.png" alt="">
+                                </div>
+                                <a href="#" class="travel__mobile--download--app">
+                                    <img class="img-fluid" src="./assets/images/as.png" alt="">
+                                </a>
+                            </div>
+                            <p class="travel__qr--text">hoặc quét QR-code</p>
+                            <div class="travel__mobile--qr">
+                                <div class="travel__mobile--qr--android">
+                                    <a href="#">
+                                        <img class="img-fluid" src="./assets/images/q-as.png" alt="">
+                                    </a>
+                                    <p>Android</p>
+                                </div>
+                                <div class="travel__mobile--line">
+                                    <img class="img-fluid" src="./assets/images/line.png" alt="">
+                                </div>
+                                <div class="travel__mobile--qr--ios">
+                                    <a href="#">
+                                        <img class="img-fluid" src="./assets/images/q-gp.png" alt="">
+                                    </a>
+                                    <p>iOS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="travel__tour--img img-fluid" src="./assets/images/bg-app.png" alt="">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-fluid footer__line" src="./assets/images/line-bot.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12">
+                    <h3 class="footer__title">Liên hệ</h3>
+                    <p class="footer__desc">190 Pasteur, Phường 6, Quận 3, TP HCM</p>
+                    <div class="footer__info">
+                        <span class="footer__info--icon"><i class="fas fa-phone-square"></i></span>
+                        <p>(+84 28) 3822 8898</p>
+                    </div>
+                    <div class="footer__info">
+                        <span class="footer__info--icon"><i class="fas fa-fax"></i></span>
+                        <p>(+84 28) 3829 9142</p>
+                    </div>
+                    <div class="footer__info">
+                        <span class="footer__info--icon"><i class="far fa-envelope"></i></span>
+                        <p>info@vietravel.com</p>
+                    </div>
+                    <div class="footer__line--short">
+                        <img src="./assets/images/ft-line.png" alt="">
+                    </div>
+                    <div class="footer__hotline">
+                        <img src="./assets/images/i-hotline.png" alt="">
+                        <div class="footer__hotline--info">
+                            <p class="footer__hotline--info--num">1900 1839</p>
+                            <p class="footer__hotline--info--text">Sẵn sàng phục vụ 24/7</p>
+                        </div>
+                    </div>
+                    <div class="footer__line--short">
+                        <img src="./assets/images/ft-line.png" alt="">
+                    </div>
+                    <a href="http://online.gov.vn/Home/WebDetails/646?AspxAutoDetectCookieSupport=1"  target="blank" class="footer__bct">
+                        <img class="img-fluid" src="./assets/images/bct.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-sm-12 mt-25">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <h3 class="footer__title">Thông tin</h3>
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12">
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Tạp chí du lịch</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Cẩm nang du lịch</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Kinh nghiệm du lịch</a>
+                                        </li>
+                                    </ul>
+                                </div>
+        
+                                <div class="col-md-5 col-sm-12">
+                                    <ul class="footer__list">
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Tin tức</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">Sitemap</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="#" class="footer__link">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer__line--short">
+                                    <img class="img-fluid" src="./assets/images/ft-line.png" alt="">
+                                </div>
+
+                                <ul class="footer__policy--list">
+                                    <li class="footer__policy--item">
+                                        <a href="#" class="footer__policy--link">Vietravel toolbar</a>
+                                    </li>
+                                    <li class="footer__policy--item">
+                                        <a href="#" class="footer__policy--link">Chính sách riêng tư</a>
+                                    </li>
+                                    <li class="footer__policy--item">
+                                        <a href="#" class="footer__policy--link">Thỏa thuận sử dụng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h3 class="footer__title">Newsletter</h3>
+                            <div class="form__group">
+                                <input type="email" class="form__group--input" placeholder="Email của bạn">
+                                <button class="form__group--btn">
+                                    <i class="far fa-envelope fa-lg"></i>
+                                </button>
+                            </div>
+                            <h3 class="footer__title">Tìm kiếm thông tin</h3>
+                            <div class="form__group">
+                                <input type="text" class="form__group--input" placeholder="Tour du lịch, Điểm đến...">
+                                <button class="form__group--btn">
+                                    <i class="fas fa-search fa-lg"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 ml-15">
+                                <h3 class="footer__title">Chấp nhận thanh toán</h3>
+                                <div class="footer__pay">
+                                    <div class="footer__pay--img">
+                                        <img src="./assets/images/accept-pay/123.png" alt="">
+                                    </div>
+                                    <div class="footer__pay--img">
+                                        <img src="./assets/images/accept-pay/visa.png" alt="">
+                                    </div>
+                                    <div class="footer__pay--img">
+                                        <img src="./assets/images/accept-pay/master.png" alt="">
+                                    </div>
+                                    <div class="footer__pay--img">
+                                        <img src="./assets/images/accept-pay/jcb.png" alt="">
+                                    </div>
+                                    <div class="footer__pay--img">
+                                        <img src="./assets/images/accept-pay/vnpay.png" alt="">
+                                    </div>
+                                    <div class="footer__pay--img">
+                                        <img src="./assets/images/accept-pay/verified.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-12 mt-25">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="footer__title">Mạng xã hội</h3>
+                            <div class="footer__social">
+                                <div class="footer__social--image">
+                                    <img class="img-fluid" src="./assets/images/social-network/fb.png" alt="">
+                                </div>
+                                <div class="footer__social--image">
+                                    <img class="img-fluid" src="./assets/images/social-network/ins.png" alt="">
+                                </div>
+                                <div class="footer__social--image">
+                                    <img class="img-fluid" src="./assets/images/social-network/tw.png" alt="">
+                                </div>
+                                <div class="footer__social--image">
+                                    <img class="img-fluid" src="./assets/images/social-network/yt.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h3 class="footer__title">Chứng nhận</h3>
+                            <a href="#" class="footer__certification">
+                                <img src="./assets/images/social-network/_dmca_premi_badge_5.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>  
+        </div>
+
+        <div class="col-12 footer__copyright">
+            <p>Bản quyền của Vietravel &copy; 2016. Bảo lưu mọi quyền.</p>
+            <p>Ghi rõ nguồn "www.travel.com.vn" &copy; khi sử dụng lại thông tin từ website này.</p>
+            <p>Số giấy phép kinh doanh lữ hành Quốc tế: 79-234/2014/TCDL-GP LHQT</p>
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- Slick Slider -->
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/app.js"></script>
+   
+</body>
+</html>
