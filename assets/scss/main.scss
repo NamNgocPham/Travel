@@ -1350,6 +1350,31 @@ body {
     display: none;
 }
 
+.to-top {
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    background: #f3b249;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+    &:hover {
+        color: #fff;
+    }
+    &.active {
+        bottom: 32px;
+        opacity: 1;
+        transition: all ease-in-out 0.3s;
+    }
+}
 
 // Responsive
 
@@ -1575,6 +1600,20 @@ body {
     .modal__login {
         max-width: 40rem;
     }
+
+    .to-top {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1rem;
+        &.active {
+            bottom: 1.6rem;
+        }
+    }
+
+    .arrow__next span,
+    .arrow__prev span {
+        display: none;
+    }
 }
 
 @media screen and (max-width : 375px) {
@@ -1590,5 +1629,7 @@ body {
 
    
 }
+
+
 
 

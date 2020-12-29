@@ -97,3 +97,24 @@ const navbar__mobile = document.querySelector(".navbar__mobile");
 navbar__icon.addEventListener('click', () => {
     navbar__mobile.classList.toggle("active");
 })
+
+// Back to top 
+const toTop = document.querySelector(".to-top");
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if (window.pageYOffset > 100) {
+            toTop.classList.add("active");
+        }
+        else {
+            toTop.classList.remove("active");
+        }
+    });
+
+    // Animate
+
+    $(".to-top").click(function() {
+        $('html, body').animate({
+            scrollTop : 0
+        }, 1000)
+    })
+})
