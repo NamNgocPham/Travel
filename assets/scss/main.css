@@ -1294,6 +1294,20 @@ body {
   .travel__tour--img {
     display: none;
   }
+
+  .modal__login {
+    max-width: 40rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .modal__login {
+    max-width: 30rem;
+  }
+
+  .modal__body .modal__account {
+    display: flex;
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
